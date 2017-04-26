@@ -122,7 +122,7 @@ class UDPEchoClientHandler(BaseRequestHandler):
                 udp_current_count = 0
                 logging.info('UDP: resetting count to 0')
             elif count != udp_current_count + 1:
-                logging.error('UDP: expected count of %d, received %d' % (udp_current_count + 1, count))
+                logging.error('UDP: expected count of %d, received %d. Resetting to new value' % (tcp_current_count + 1, count))
 
             udp_current_count = count
 
