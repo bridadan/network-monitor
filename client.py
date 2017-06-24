@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""A simple python script template.
+"""Server client script
 """
 
 from __future__ import print_function
